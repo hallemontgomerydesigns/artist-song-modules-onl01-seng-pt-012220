@@ -8,7 +8,7 @@ class Artist
 
   extend Memorable
   extend Findable::ClassMethods
-  
+  include Paramable
   
   @@artists = []
 
